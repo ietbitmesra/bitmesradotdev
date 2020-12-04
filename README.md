@@ -1,8 +1,9 @@
 # bitmesradotdev 
 
-One platform for all developers at BIT Mesra. Students at BIT Mesra from various branches are coding day in day out. It's relatively easier for CSE/IT branch folks to get placed because of multiple reasons like Interactions with seniors, technical clubs, more time (yeah I feel sorry for coders who are maintaining absolute grading and their passion). 
+One platform for all developers at BIT Mesra. Students at BIT Mesra from various branches are coding day in day out. It's relatively easier for CSE/IT branch folks to grow in this field because of multiple reasons like Interactions with seniors, technical clubs, more time (yeah I feel sorry for coders who are maintaining absolute grading and their passion), ~~course structure~~ .
 
-This is just a small attempt to bring all devs@BIT regardless of their background, knowledge, language proficiency, on one platform and also give them a reputed platform to show off to their recruiters. 
+This is just a small attempt to bring all devs@BIT regardless of their background, knowledge, language proficiency, on one platform to grow one percent better everyday and also give them a place to show off their work. Be it dev, ml, competitive-programming or your recent hardware-hack.
+
 
 ## Installation
 
