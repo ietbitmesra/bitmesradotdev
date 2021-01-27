@@ -1,5 +1,9 @@
 # bdd-ui
 
+branch: main (frontend deploy happens automatically via netlify)
+
+> so to work: create a new branch
+
 ## Project setup
 ```
 yarn install
