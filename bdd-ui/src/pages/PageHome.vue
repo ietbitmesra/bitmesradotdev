@@ -1,5 +1,25 @@
 <template>
 <div class="bg-white">
+  <div v-if="showBanner" class="relative bg-rose-600">
+    <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
+      <div class="pr-16 sm:text-center sm:px-16">
+        <p class="font-medium text-white">
+          <span class="inline">
+            We are not officially affiliated to <a class="text-rose-100 hover:text-white underline cursor-pointer" target="_blank" href="https://bitmesra.ac.in">Birla Institute of Technology, Mesra</a>
+          </span>
+        </p>
+      </div>
+      <div class="absolute inset-y-0 right-0 pt-1 pr-1 flex items-start sm:pt-1 sm:pr-2 sm:items-start">
+        <button @click="hideBanner" type="button" class="flex p-2 rounded-md hover:bg-rose-500 focus:outline-none focus:ring-2 focus:ring-white">
+          <span class="sr-only">Dismiss</span>
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
   <main>
     <!-- Hero section -->
     <div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
@@ -134,7 +154,6 @@
 
   <!-- Footer section -->
   <footer class="mt-24 bg-gray-900 sm:mt-12">
-
     <div class="mx-auto max-w-md py-12 px-4 overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
       <div class="mt-8 flex justify-center space-x-6">
         <a href="https://www.facebook.com/ietbitmesra" class="text-gray-400 hover:text-gray-300">
@@ -173,6 +192,16 @@
 export default {
   name: 'Home',
   components: {
+  },
+  data() {
+    return {
+      showBanner: true,
+    }
+  },
+  methods: {
+    hideBanner() {
+      this.showBanner = false;
+    }
   }
 }
 </script>
